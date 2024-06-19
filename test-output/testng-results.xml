@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-23T20:17:15 IST" name="Default suite" finished-at="2024-05-23T20:17:26 IST" duration-ms="10849">
+    <groups>
+    </groups>
+    <test started-at="2024-05-23T20:17:15 IST" name="Default test" finished-at="2024-05-23T20:17:26 IST" duration-ms="10849">
+      <class name="extent.extentDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:extent.extentDemo@2b662a77]" started-at="2024-05-23T20:17:15 IST" name="setup" finished-at="2024-05-23T20:17:20 IST" duration-ms="4387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:extent.extentDemo@2b662a77]" started-at="2024-05-23T20:17:20 IST" name="loginTest" finished-at="2024-05-23T20:17:23 IST" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extent.extentDemo@2b662a77]" started-at="2024-05-23T20:17:23 IST" name="tearDown" finished-at="2024-05-23T20:17:26 IST" duration-ms="2802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=extentDemo.loginTest()[pri:0, instance:extent.extentDemo@2b662a77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- extent.extentDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
